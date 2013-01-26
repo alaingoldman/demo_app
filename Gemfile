@@ -36,3 +36,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+ gem 'execjs'
+ # gem 'therubyracer'
+ # an attempt to fix rails generate scaffold error
+ # error:  Could not find a javascript runtime.
