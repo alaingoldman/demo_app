@@ -41,3 +41,12 @@ gem 'jquery-rails'
  # gem 'therubyracer'
  # an attempt to fix rails generate scaffold error
  # error:  Could not find a javascript runtime.
+
+ # ----- stack overflow heroku fix under this ----@
+gem 'heroku'
+ # heroku needs stackoverflow
+gem 'pg', :group => :production
+gem 'heroku', :group => :production
+gem 'thin', :group => :production
+
+ # ----- stack overflow heroku fix above this ----@
